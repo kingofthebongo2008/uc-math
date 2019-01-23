@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003"> 
+
+<ItemGroup>	
+<ClInclude Include = "..\src\pch\pch.h"/>	
+<ClInclude Include = "..\src\pch\targetver.h"/>
+</ItemGroup>
+<ItemGroup>	
+<ClInclude Include = "..\include\uc\os\windows\com_error.h"/>	
+<ClInclude Include = "..\include\uc\os\windows\com_initializer.h"/>	
+<ClInclude Include = "..\include\uc\sys\memcpy.h"/>	
+<ClInclude Include = "..\include\uc\sys\profile_timer.h"/>	
+<ClInclude Include = "..\include\uc\sys\spin_lock.h"/>	
+<ClInclude Include = "..\include\uc\util\bits.h"/>	
+<ClInclude Include = "..\include\uc\util\noncopyable.h"/>	
+<ClInclude Include = "..\include\uc\util\pimpl.h"/>	
+<ClInclude Include = "..\include\uc\util\pimpl_impl.h"/>	
+<ClInclude Include = "..\include\uc\util\utf8_conv.h"/>
+</ItemGroup></Project> 
